@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.pegasustest.automation.pegasus_test.AppTest">
+        <methods>
+          <include name="setupAppium"/>
+          <include name="teardown"/>
+          <include name="Case13"/>
+          <include name="Case15"/>
+          <include name="Case16"/>
+        </methods>
+      </class> <!-- com.pegasustest.automation.pegasus_test.AppTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
